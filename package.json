@@ -1,0 +1,39 @@
+{
+  "name": "stylelint-config-jobteaser",
+  "version": "1.0.0",
+  "description": "StyleLint configuration for JobTeaser projects.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobteaser/stylelint-config-jobteaser.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelintconfig",
+    "guidelines",
+    "css",
+    "jobteaser"
+  ],
+  "author": "Fabien Raynaud <fabien.raynaud@jobteaser.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jobteaser/stylelint-config-jobteaser/issues"
+  },
+  "homepage": "https://github.com/jobteaser/stylelint-config-jobteaser#readme",
+  "engines": {
+    "node": ">= 10"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.2",
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0",
+    "stylelint-order": "^3.0.1",
+    "stylelint-selector-bem-pattern": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint-config-jobteaser": "github:jobteaser/eslint-config-jobteaser"
+  }
+}
