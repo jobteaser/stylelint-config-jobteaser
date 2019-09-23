@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-jobteaser",
+  "name": "@jobteaser/stylelint-config",
   "version": "1.0.0",
   "description": "StyleLint configuration for JobTeaser projects.",
   "main": "index.js",
