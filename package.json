@@ -1,5 +1,6 @@
 {
   "name": "stylelint-config-jobteaser",
+  "private": true,
   "version": "1.0.0",
   "description": "StyleLint configuration for JobTeaser projects.",
   "main": "index.js",
