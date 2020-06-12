@@ -1,14 +1,13 @@
 module.exports = {
   parser: "babel-eslint",
-  extends: [
-    "stylelint-config-standard",
-    "./rules/base",
-    "./rules/order",
-    "./rules/selector-bem-pattern",
-  ].map(require.resolve),
   plugins : [
-    "stylelint-order",
     "stylelint-selector-bem-pattern"
   ],
+  extends: [
+    "stylelint-config-standard",
+    "stylelint-config-property-sort-order-smacss",
+    "./rules/base",
+    "./rules/selector-bem-pattern",
+  ].map(require.resolve),
   rules: {}
 }
