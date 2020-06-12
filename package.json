@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-jobteaser",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "StyleLint configuration for JobTeaser projects.",
   "main": "index.js",
   "scripts": {
@@ -28,13 +28,13 @@
     "node": ">= 10"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.2",
-    "stylelint": "^10.1.0",
-    "stylelint-config-standard": "^18.3.0",
-    "stylelint-order": "^3.0.1",
+    "babel-eslint": "^10.1.0",
+    "stylelint": "^13.6.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
     "stylelint-selector-bem-pattern": "^2.1.0"
   },
   "devDependencies": {
-    "eslint-config-jobteaser": "github:jobteaser/eslint-config-jobteaser"
+    "eslint-config-jobteaser": "jobteaser/eslint-config-jobteaser#0.6.1"
   }
 }
