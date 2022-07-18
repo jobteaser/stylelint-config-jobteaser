@@ -1,7 +1,7 @@
 {
   "name": "stylelint-config-jobteaser",
   "private": true,
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "StyleLint configuration for JobTeaser projects.",
   "main": "index.js",
   "scripts": {
@@ -28,14 +28,15 @@
     "node": "16.10.0"
   },
   "dependencies": {
-    "babel-eslint": "^10.1.0",
-    "stylelint": "^13.13.1",
-    "stylelint-config-css-modules": "^2.3.0",
-    "stylelint-config-property-sort-order-smacss": "^7.1.0",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-selector-bem-pattern": "^2.1.0"
+    "stylelint": "^14.9.1",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-property-sort-order-smacss": "^9.0.0",
+    "stylelint-config-css-modules": "^4.1.0",
+    "stylelint-selector-bem-pattern": "^2.1.1"
   },
   "devDependencies": {
-    "eslint-config-jobteaser": "jobteaser/eslint-config-jobteaser#0.6.1"
+    "eslint": "^5.16.0",
+    "eslint-config-jobteaser": "jobteaser/eslint-config-jobteaser#0.11.1"
   }
 }
