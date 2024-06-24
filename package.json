@@ -29,6 +29,7 @@
   },
   "peerDependencies": {
     "babel-eslint": "^10.1.0",
+    "@babel/traverse": "^7.23.2",
     "stylelint": "^14.16.1",
     "stylelint-config-css-modules": "^4.1.0",
     "stylelint-config-property-sort-order-smacss": "^9.0.0",
